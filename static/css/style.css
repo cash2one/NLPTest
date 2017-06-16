@@ -1,0 +1,341 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+header {
+	height: 7%;
+	background-color: darkslategrey;
+	color: #EBEBEB;
+}
+
+.heading {
+	width: 20%;
+	float: left;
+	text-align: center;
+	font-size: 27px;
+	margin-top: 0.4%;
+}
+
+.nav-menu {
+	padding: 0px 3%;
+}
+
+section {
+	height: 95%;
+}
+
+.box1 {
+	height: 100%;
+	background: linear-gradient(#330080, #b380ff);
+	color: #E3E3E3;
+}
+
+.container-box1 {
+	width: 80%;
+	padding-left: 15%;
+	padding-top: 5%;
+}
+
+
+/*--------Index------------*/
+
+.container-box1 h1 {
+	text-align: center;
+}
+
+.container-box1 h3 {
+	text-align: center;
+}
+
+.btn-list {
+	text-align: center;
+}
+
+#choice {
+	margin-left: 5%;
+}
+
+.modal-body {
+	width: 60%;
+	margin: auto;
+}
+
+.nlpselct_button {
+	margin: 0 5%;
+}
+
+
+/*--------comparePgae------------*/
+
+.inputBox {
+	width: 80%;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+.answerBox {
+	width: 80%;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+#answerBox_baidu {
+	height: 10%;
+	margin-bottom: 5%;
+}
+
+#answerBox_tencent {
+	height: 10%;
+	margin-bottom: 5%;
+}
+
+#answerBox_boson {
+	height: 10%;
+	margin-bottom: 5%;
+}
+
+#comparebtn {
+	margin-top: 5%;
+	margin-left: 45%;
+}
+
+.show_single_item {
+	float: left;
+	margin: 0 10%;
+}
+
+.show_single_item dd {
+	text-align: center;
+	font-size: 150%;
+}
+
+
+/*---------NLPpageBaidu&NLPPageTencent---------*/
+
+.functionlist {
+	width: 100%;
+	margin: 5% auto;
+}
+
+.functionbox {
+	background-color: white;
+	width: 25%;
+	float: left;
+	margin: 2% 2%;
+}
+
+.functionbox img {
+	height: 100%;
+	width: 100%;
+}
+
+.functionbox h3 {
+	padding-bottom: 7%;
+}
+
+
+/*--------baidugetview-----------*/
+
+.getviewBox h2 {
+	text-align: center;
+}
+
+.viewbuttonlist {
+	width: 50%;
+	margin: 5% auto;
+}
+
+.viewbuttonlist select {
+	float: left;
+	width: 60%;
+}
+
+.viewbuttonlist button {
+	margin: 0 0 0 10%
+}
+
+.showbox {
+	width: 100%;
+	margin: 5% 0;
+}
+
+.getviewBox textarea {
+	width: 40%;
+	margin: 0 5%;
+	float: left;
+}
+
+
+/*--------baidugetview-----------*/
+
+.similarBox {
+	width: 100%;
+	height: 100%;
+	padding: auto;
+}
+
+.similarBox h2 {
+	text-align: center;
+}
+
+.similarBox button {
+	width: 20%;
+	margin: 2% 40%;
+}
+
+.showbox2 {
+	width: 100%;
+	height: auto;
+	margin: 5% 0;
+}
+
+.txt1 {
+	width: 47%;
+	margin-right: 2.5%;
+	display: inline;
+}
+
+.txt2{
+	width: 47%;
+	margin-left: 2.5%;
+	display: inline;
+}
+
+
+.similarshow {
+	width: 80%;
+	margin: 5% auto;
+}
+
+.similarshow span {
+	width: 10%;
+	font-size: 200%;
+	margin: 0 45%;
+}
+
+
+/*--------tencentemotion-----------*/
+.emotionedit{
+	width: 100%;
+	margin: auto;
+}
+
+.emotionedit textarea{
+	width: 80%;
+	margin: 5% 10%;
+}
+.positive{
+	float: left;
+	margin-left: 3%;
+}
+.progressbox{
+	width: 70%;
+	margin: 0 2%;
+	float: left;
+}
+.negative{
+	float: left;
+}
+#progressfemotion{
+	width: 80%;
+}
+
+/*--------tencentkeyword-----------*/
+.keywordbuttonlist{
+	width:80%;
+	margin: 0 auto;
+}
+
+.typeselect{
+	width: 40%;
+	float: left;
+	margin:2% 5%;
+}
+
+.keywordBox{
+	width: 100%;
+	height: 100%;
+	padding: auto;
+	
+}
+.keywordBox h2 {
+	text-align: center;
+}
+
+.keywordBox button {
+	width: 20%;
+	margin: 2% 40%;
+}
+
+/*--------tencentclassify-----------*/
+
+.classifyBox {
+	width: 100%;
+	height: 100%;
+	padding: auto;
+}
+
+.classifyBox h2 {
+	text-align: center;
+}
+
+.classifyBox button {
+	width: 20%;
+	margin: 2% 40%;
+}
+
+.showbox2 {
+	width: 100%;
+	height: auto;
+	margin: 5% 0;
+}
+
+.txt1 {
+	width: 47%;
+	margin-right: 2.5%;
+	display: inline;
+}
+
+.txt2{
+	width: 47%;
+	margin-left: 2.5%;
+	display: inline;
+}
+
+/*--------tencentsimilar-----------*/
+
+.similarwordBox {
+	width: 100%;
+	height: 100%;
+	padding: auto;
+}
+
+.similarwordBox h2 {
+	text-align: center;
+}
+
+.similarwordBox button {
+	width: 20%;
+	margin: 2% 40%;
+}
+
+
+/*--------tencentcorrect-----------*/
+
+.correctwordBox {
+	width: 100%;
+	height: 100%;
+	padding: auto;
+}
+
+.correctwordBox h2 {
+	text-align: center;
+}
+
+.correctwordBox button {
+	width: 20%;
+	margin: 2% 40%;
+}

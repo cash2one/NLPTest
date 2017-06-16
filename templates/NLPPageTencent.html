@@ -1,0 +1,85 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>NLP测试系统</title>
+
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script type="text/javascript" src="{% static 'js/jquery-2.1.0.js' %}"></script>
+		<script src="{%static 'js/bootstrap.min.js' %}"></script>
+
+		<!--css文件-->
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1" />
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div id="heading" class="heading">NLP测试系统</div>
+				<ul class="nav nav-pills">
+					<li class="nav-menu">
+						<a href="index.html">首页</a>
+					</li>
+					<li class="nav-menu">
+						<a href="comparePage.html">NLP比较</a>
+					</li>
+					<li class="active dropdown nav-menu">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							NlP分类 <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="NLPPageBaidu.html">百度NLP</a>
+							</li>
+							<li>
+								<a href="NLPPageTencent.html">腾讯NLP</a>
+							</li>
+							<li>
+								<a href="NLPPageBoson.html">BonsonNLP</a>
+							</li>
+							<li>
+								<a href="NLPPageHarbin.html">HarbinNLP</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</header>
+			<section>
+				<div id="box1" class="box1">
+					<div class="container-box1">
+						<div class="functionlist">
+							<div class="functionbox">
+								<img src="https://static.bootcss.com/www/assets/img/yarn.png"/>
+								<h3><a href="tencentpage/tencentKeyword.html">关键词抽取</a></h3>
+							</div>
+							<div class="functionbox">
+								<img src="https://static.bootcss.com/www/assets/img/yarn.png"/>
+								<h3><a href="tencentpage/tencentEmotion.html">情感分析</a></h3>
+							</div>
+							<div class="functionbox">
+								<img src="https://static.bootcss.com/www/assets/img/yarn.png"/>
+								<h3><a href="tencentpage/tencentSimilarWord.html">同义词</a></h3>
+							</div>
+							<div class="functionbox">
+								<img src="https://static.bootcss.com/www/assets/img/yarn.png"/>
+								<h3><a href="tencentpage/tencentClassify.html">文本分类</a></h3>
+							</div>
+							<div class="functionbox">
+								<img src="https://static.bootcss.com/www/assets/img/yarn.png"/>
+								<h3><a href="tencentpage/tencentCorrectWord.html">词语纠错</a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer></footer>
+		</div>
+	</body>
+		<script type="text/javascript" src="{% static 'js/webload.js' %}"></script>
+</html>
